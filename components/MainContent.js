@@ -11,7 +11,7 @@ export default function MainContent() {
   )
 
   return (
-    <div>
+    <div className="container">
       {card}
     </div>
   )

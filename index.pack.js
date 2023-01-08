@@ -30556,7 +30556,7 @@ function Card(props) {
     _react2.default.createElement("img", { src: props.imageUrl, className: "card--img" }),
     _react2.default.createElement(
       "div",
-      null,
+      { className: "card--info" },
       _react2.default.createElement(
         "div",
         { className: "card--location" },
@@ -30574,19 +30574,19 @@ function Card(props) {
       ),
       _react2.default.createElement(
         "h1",
-        { className: ".card--title" },
+        { className: "card--title" },
         props.title
       ),
       _react2.default.createElement(
         "h6",
-        null,
+        { className: "card--date" },
         props.startDate,
         " - ",
         props.endDate
       ),
       _react2.default.createElement(
         "p",
-        null,
+        { className: "card--text" },
         props.description
       )
     )
@@ -30626,7 +30626,7 @@ function MainContent() {
 
   return _react2.default.createElement(
     "div",
-    null,
+    { className: "container" },
     card
   );
 }
@@ -30649,6 +30649,22 @@ exports.default = [{
     endDate: "24 Jan, 2021",
     description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
     imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+}, {
+    title: "Sydney Opera House",
+    location: "Austrlia",
+    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    startDate: "27 May, 2021",
+    endDate: "8 Jun, 2021",
+    description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
+    imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3b/95/61/photo2jpg.jpg?w=1200&h=-1&s=1"
+}, {
+    title: "Geirangerfjord",
+    location: "Norway",
+    googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+    startDate: "01 Oct, 2021",
+    endDate: "18 Nov, 2021",
+    description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
+    imageUrl: "https://global.hurtigruten.com/globalassets/photos/destinations/norway/attractions/geirangerfjord/geiranger_view.jpg?width=1900&height=950&center=0.51,0.54&transform=DownResizeCrop"
 }];
 
 /***/ })
