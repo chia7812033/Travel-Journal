@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+}
+
+.nav p {
+    font-size: 14.5px;
+    color: #FFFFFF;
+}
+
+.nav--img {
+    width: 24px;
+    filter: invert(99%) sepia(6%) saturate(256%) hue-rotate(173deg) brightness(114%) contrast(100%);
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+}
+
+.card--img {
+    width: 125px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card--location {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.card--location-img {
+    filter: invert(62%) sepia(48%) saturate(5866%) hue-rotate(328deg) brightness(103%) contrast(92%);
+    width: 18px;
+    padding-bottom: 3px;
+}
+
+.card--location-country {
+    font-weight: 400;
+    color: #2B283A;
+    letter-spacing: 0.2rem;
+}
+
+.card--location-url {
+    color: #918E9B;
+    font-size: 10px;
+}
+
+.card--title {
+    margin: 0;
+}
